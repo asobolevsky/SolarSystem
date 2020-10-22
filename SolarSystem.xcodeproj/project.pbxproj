@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F103B752542427900B08586 /* DebugSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F103B742542427900B08586 /* DebugSettingsViewController.swift */; };
 		5F27DB192537934500ADAF9A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27DB182537934500ADAF9A /* AppDelegate.swift */; };
 		5F27DB1D2537934500ADAF9A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F27DB1C2537934500ADAF9A /* ViewController.swift */; };
 		5F27DB202537934500ADAF9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F27DB1E2537934500ADAF9A /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5F103B742542427900B08586 /* DebugSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugSettingsViewController.swift; sourceTree = "<group>"; };
 		5F27DB152537934500ADAF9A /* SolarSystem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SolarSystem.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F27DB182537934500ADAF9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F27DB1C2537934500ADAF9A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5F103B70254241DA00B08586 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5F27DB262537934900ADAF9A /* Info.plist */,
+				5F27DB2E2537966C00ADAF9A /* SolarSystem.scnassets */,
+				5F27DB1E2537934500ADAF9A /* Main.storyboard */,
+				5F27DB212537934900ADAF9A /* Assets.xcassets */,
+				5F27DB232537934900ADAF9A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5F103B722542420400B08586 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				5F27DB1C2537934500ADAF9A /* ViewController.swift */,
+				5F103B742542427900B08586 /* DebugSettingsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		5F27DB0C2537934500ADAF9A = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +79,9 @@
 		5F27DB172537934500ADAF9A /* SolarSystem */ = {
 			isa = PBXGroup;
 			children = (
-				5F27DB2E2537966C00ADAF9A /* SolarSystem.scnassets */,
+				5F103B722542420400B08586 /* ViewControllers */,
+				5F103B70254241DA00B08586 /* Resources */,
 				5F27DB182537934500ADAF9A /* AppDelegate.swift */,
-				5F27DB1C2537934500ADAF9A /* ViewController.swift */,
-				5F27DB1E2537934500ADAF9A /* Main.storyboard */,
-				5F27DB212537934900ADAF9A /* Assets.xcassets */,
-				5F27DB232537934900ADAF9A /* LaunchScreen.storyboard */,
-				5F27DB262537934900ADAF9A /* Info.plist */,
 			);
 			path = SolarSystem;
 			sourceTree = "<group>";
@@ -139,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F27DB1D2537934500ADAF9A /* ViewController.swift in Sources */,
+				5F103B752542427900B08586 /* DebugSettingsViewController.swift in Sources */,
 				5F27DB192537934500ADAF9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,7 +308,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9E5FJ56WP5;
-				INFOPLIST_FILE = SolarSystem/Info.plist;
+				INFOPLIST_FILE = SolarSystem/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -308,7 +328,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9E5FJ56WP5;
-				INFOPLIST_FILE = SolarSystem/Info.plist;
+				INFOPLIST_FILE = SolarSystem/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
